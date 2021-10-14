@@ -1,0 +1,24 @@
+first_name = input("PLease enter someone's first name.")
+last_name = input("Please enter someone's last name.")
+first_name2 = input("Please enter another first name.")
+last_name2 = input("Please enter another last name.")
+company_name = input("Please enter company name.")
+hobby = input("Please enter your hobby.")
+charity = input("PLease enter a name of a charity.")
+adj = input("Please enter an adjective.")
+noun = input("Please enter a noun.")
+number = input("Please enter a number")
+adj2 = input("Please enter another adjective.")
+plural_noun = input("Please enter a plural noun.")
+adj3 = input("Please enter yet another adjective.")
+number2 = input("PLease enter another number.")
+plural_noun2 = input("PLease enter another plural noun.")
+
+print(f"""Hello, this is {first_name2} {last_name2}, from {company_name}. May I please speak with {first_name} 
+{last_name}? That's me,I'm just about to {hobby}...{first_name},
+I am calling you today to see if you are interested in donating to our {charity} fund by purchasing our new 
+product called {adj2}, {plural_noun}. Prices start from only {number} and you can have your very own {adj2} 
+{plural_noun} by Monday morning. I'm not interested, thank you. Are you sure? This is an opportunity of a lifetime! 
+You will
+help thousands of {adj3} {number2} by purchasing {number2} {plural_noun2}, and if you purchase today, we will send you
+{adj3} {plural_noun}  {plural_noun2}.No thank you.""")
